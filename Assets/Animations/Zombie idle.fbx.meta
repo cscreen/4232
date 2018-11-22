@@ -3,142 +3,188 @@ guid: f25d012516bfec641943077826310a6b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Head
-    100002: HeadTop_End
-    100004: Hips
-    100006: LeftArm
-    100008: LeftEye
-    100010: LeftFoot
-    100012: LeftForeArm
-    100014: LeftHand
-    100016: LeftHandIndex1
-    100018: LeftHandIndex2
-    100020: LeftHandIndex3
-    100022: LeftHandIndex4
-    100024: LeftHandMiddle1
-    100026: LeftHandMiddle2
-    100028: LeftHandMiddle3
-    100030: LeftHandMiddle4
-    100032: LeftHandPinky1
-    100034: LeftHandPinky2
-    100036: LeftHandPinky3
-    100038: LeftHandPinky4
-    100040: LeftHandRing1
-    100042: LeftHandRing2
-    100044: LeftHandRing3
-    100046: LeftHandRing4
-    100048: LeftHandThumb1
-    100050: LeftHandThumb2
-    100052: LeftHandThumb3
-    100054: LeftHandThumb4
-    100056: LeftLeg
-    100058: LeftShoulder
-    100060: LeftToe_End
-    100062: LeftToeBase
-    100064: LeftUpLeg
-    100066: Neck
-    100068: RightArm
-    100070: RightEye
-    100072: RightFoot
-    100074: RightForeArm
-    100076: RightHand
-    100078: RightHandIndex1
-    100080: RightHandIndex2
-    100082: RightHandIndex3
-    100084: RightHandIndex4
-    100086: RightHandMiddle1
-    100088: RightHandMiddle2
-    100090: RightHandMiddle3
-    100092: RightHandMiddle4
-    100094: RightHandPinky1
-    100096: RightHandPinky2
-    100098: RightHandPinky3
-    100100: RightHandPinky4
-    100102: RightHandRing1
-    100104: RightHandRing2
-    100106: RightHandRing3
-    100108: RightHandRing4
-    100110: RightHandThumb1
-    100112: RightHandThumb2
-    100114: RightHandThumb3
-    100116: RightHandThumb4
-    100118: RightLeg
-    100120: RightShoulder
-    100122: RightToe_End
-    100124: RightToeBase
-    100126: RightUpLeg
-    100128: Spine
-    100130: Spine1
-    100132: Spine2
-    100134: //RootNode
-    400000: Head
-    400002: HeadTop_End
-    400004: Hips
-    400006: LeftArm
-    400008: LeftEye
-    400010: LeftFoot
-    400012: LeftForeArm
-    400014: LeftHand
-    400016: LeftHandIndex1
-    400018: LeftHandIndex2
-    400020: LeftHandIndex3
-    400022: LeftHandIndex4
-    400024: LeftHandMiddle1
-    400026: LeftHandMiddle2
-    400028: LeftHandMiddle3
-    400030: LeftHandMiddle4
-    400032: LeftHandPinky1
-    400034: LeftHandPinky2
-    400036: LeftHandPinky3
-    400038: LeftHandPinky4
-    400040: LeftHandRing1
-    400042: LeftHandRing2
-    400044: LeftHandRing3
-    400046: LeftHandRing4
-    400048: LeftHandThumb1
-    400050: LeftHandThumb2
-    400052: LeftHandThumb3
-    400054: LeftHandThumb4
-    400056: LeftLeg
-    400058: LeftShoulder
-    400060: LeftToe_End
-    400062: LeftToeBase
-    400064: LeftUpLeg
-    400066: Neck
-    400068: RightArm
-    400070: RightEye
-    400072: RightFoot
-    400074: RightForeArm
-    400076: RightHand
-    400078: RightHandIndex1
-    400080: RightHandIndex2
-    400082: RightHandIndex3
-    400084: RightHandIndex4
-    400086: RightHandMiddle1
-    400088: RightHandMiddle2
-    400090: RightHandMiddle3
-    400092: RightHandMiddle4
-    400094: RightHandPinky1
-    400096: RightHandPinky2
-    400098: RightHandPinky3
-    400100: RightHandPinky4
-    400102: RightHandRing1
-    400104: RightHandRing2
-    400106: RightHandRing3
-    400108: RightHandRing4
-    400110: RightHandThumb1
-    400112: RightHandThumb2
-    400114: RightHandThumb3
-    400116: RightHandThumb4
-    400118: RightLeg
-    400120: RightShoulder
-    400122: RightToe_End
-    400124: RightToeBase
-    400126: RightUpLeg
-    400128: Spine
-    400130: Spine1
-    400132: Spine2
-    400134: //RootNode
+    100000: //RootNode
+    100002: Zombie:Head
+    100004: Zombie:HeadTop_End
+    100006: Zombie:Hips
+    100008: Zombie:Jaw
+    100010: Zombie:JawEND
+    100012: Zombie:LeftArm
+    100014: Zombie:LeftCheek
+    100016: Zombie:LeftEye
+    100018: Zombie:LeftEyelidLower
+    100020: Zombie:LeftEyelidUpper
+    100022: Zombie:LeftFoot
+    100024: Zombie:LeftFootToeBase_End
+    100026: Zombie:LeftForeArm
+    100028: Zombie:LeftHand
+    100030: Zombie:LeftHandIndex1
+    100032: Zombie:LeftHandIndex2
+    100034: Zombie:LeftHandIndex3
+    100036: Zombie:LeftHandIndex4
+    100038: Zombie:LeftHandMiddle1
+    100040: Zombie:LeftHandMiddle2
+    100042: Zombie:LeftHandMiddle3
+    100044: Zombie:LeftHandMiddle4
+    100046: Zombie:LeftHandPinky1
+    100048: Zombie:LeftHandPinky2
+    100050: Zombie:LeftHandPinky3
+    100052: Zombie:LeftHandPinky4
+    100054: Zombie:LeftHandRing1
+    100056: Zombie:LeftHandRing2
+    100058: Zombie:LeftHandRing3
+    100060: Zombie:LeftHandRing4
+    100062: Zombie:LeftHandThumb1
+    100064: Zombie:LeftHandThumb2
+    100066: Zombie:LeftHandThumb3
+    100068: Zombie:LeftHandThumb4
+    100070: Zombie:LeftInnerBrow
+    100072: Zombie:LeftIOuterBrow
+    100074: Zombie:LeftLeg
+    100076: Zombie:LeftLipCorner
+    100078: Zombie:LeftLipLower
+    100080: Zombie:LeftLipUpper
+    100082: Zombie:LeftNostril
+    100084: Zombie:LeftShoulder
+    100086: Zombie:LeftToeBase
+    100088: Zombie:LeftUpLeg
+    100090: Zombie:Neck
+    100092: Zombie:Neck1
+    100094: Zombie:RightArm
+    100096: Zombie:RightCheek
+    100098: Zombie:RightEye
+    100100: Zombie:RightEyelidLower
+    100102: Zombie:RightEyelidUpper
+    100104: Zombie:RightFoot
+    100106: Zombie:RightFootToeBase_End
+    100108: Zombie:RightForeArm
+    100110: Zombie:RightHand
+    100112: Zombie:RightHandIndex1
+    100114: Zombie:RightHandIndex2
+    100116: Zombie:RightHandIndex3
+    100118: Zombie:RightHandIndex4
+    100120: Zombie:RightHandMiddle1
+    100122: Zombie:RightHandMiddle2
+    100124: Zombie:RightHandMiddle3
+    100126: Zombie:RightHandMiddle4
+    100128: Zombie:RightHandPinky1
+    100130: Zombie:RightHandPinky2
+    100132: Zombie:RightHandPinky3
+    100134: Zombie:RightHandPinky4
+    100136: Zombie:RightHandRing1
+    100138: Zombie:RightHandRing2
+    100140: Zombie:RightHandRing3
+    100142: Zombie:RightHandRing4
+    100144: Zombie:RightHandThumb1
+    100146: Zombie:RightHandThumb2
+    100148: Zombie:RightHandThumb3
+    100150: Zombie:RightHandThumb4
+    100152: Zombie:RightInnerBrow
+    100154: Zombie:RightIOuterBrow
+    100156: Zombie:RightLeg
+    100158: Zombie:RightLipCorner
+    100160: Zombie:RightLipLower
+    100162: Zombie:RightLipUpper
+    100164: Zombie:RightNostril
+    100166: Zombie:RightShoulder
+    100168: Zombie:RightToeBase
+    100170: Zombie:RightUpLeg
+    100172: Zombie:Spine
+    100174: Zombie:Spine1
+    100176: Zombie:Spine2
+    100178: Zombie:TongueBack
+    100180: Zombie:TongueTip
+    400000: //RootNode
+    400002: Zombie:Head
+    400004: Zombie:HeadTop_End
+    400006: Zombie:Hips
+    400008: Zombie:Jaw
+    400010: Zombie:JawEND
+    400012: Zombie:LeftArm
+    400014: Zombie:LeftCheek
+    400016: Zombie:LeftEye
+    400018: Zombie:LeftEyelidLower
+    400020: Zombie:LeftEyelidUpper
+    400022: Zombie:LeftFoot
+    400024: Zombie:LeftFootToeBase_End
+    400026: Zombie:LeftForeArm
+    400028: Zombie:LeftHand
+    400030: Zombie:LeftHandIndex1
+    400032: Zombie:LeftHandIndex2
+    400034: Zombie:LeftHandIndex3
+    400036: Zombie:LeftHandIndex4
+    400038: Zombie:LeftHandMiddle1
+    400040: Zombie:LeftHandMiddle2
+    400042: Zombie:LeftHandMiddle3
+    400044: Zombie:LeftHandMiddle4
+    400046: Zombie:LeftHandPinky1
+    400048: Zombie:LeftHandPinky2
+    400050: Zombie:LeftHandPinky3
+    400052: Zombie:LeftHandPinky4
+    400054: Zombie:LeftHandRing1
+    400056: Zombie:LeftHandRing2
+    400058: Zombie:LeftHandRing3
+    400060: Zombie:LeftHandRing4
+    400062: Zombie:LeftHandThumb1
+    400064: Zombie:LeftHandThumb2
+    400066: Zombie:LeftHandThumb3
+    400068: Zombie:LeftHandThumb4
+    400070: Zombie:LeftInnerBrow
+    400072: Zombie:LeftIOuterBrow
+    400074: Zombie:LeftLeg
+    400076: Zombie:LeftLipCorner
+    400078: Zombie:LeftLipLower
+    400080: Zombie:LeftLipUpper
+    400082: Zombie:LeftNostril
+    400084: Zombie:LeftShoulder
+    400086: Zombie:LeftToeBase
+    400088: Zombie:LeftUpLeg
+    400090: Zombie:Neck
+    400092: Zombie:Neck1
+    400094: Zombie:RightArm
+    400096: Zombie:RightCheek
+    400098: Zombie:RightEye
+    400100: Zombie:RightEyelidLower
+    400102: Zombie:RightEyelidUpper
+    400104: Zombie:RightFoot
+    400106: Zombie:RightFootToeBase_End
+    400108: Zombie:RightForeArm
+    400110: Zombie:RightHand
+    400112: Zombie:RightHandIndex1
+    400114: Zombie:RightHandIndex2
+    400116: Zombie:RightHandIndex3
+    400118: Zombie:RightHandIndex4
+    400120: Zombie:RightHandMiddle1
+    400122: Zombie:RightHandMiddle2
+    400124: Zombie:RightHandMiddle3
+    400126: Zombie:RightHandMiddle4
+    400128: Zombie:RightHandPinky1
+    400130: Zombie:RightHandPinky2
+    400132: Zombie:RightHandPinky3
+    400134: Zombie:RightHandPinky4
+    400136: Zombie:RightHandRing1
+    400138: Zombie:RightHandRing2
+    400140: Zombie:RightHandRing3
+    400142: Zombie:RightHandRing4
+    400144: Zombie:RightHandThumb1
+    400146: Zombie:RightHandThumb2
+    400148: Zombie:RightHandThumb3
+    400150: Zombie:RightHandThumb4
+    400152: Zombie:RightInnerBrow
+    400154: Zombie:RightIOuterBrow
+    400156: Zombie:RightLeg
+    400158: Zombie:RightLipCorner
+    400160: Zombie:RightLipLower
+    400162: Zombie:RightLipUpper
+    400164: Zombie:RightNostril
+    400166: Zombie:RightShoulder
+    400168: Zombie:RightToeBase
+    400170: Zombie:RightUpLeg
+    400172: Zombie:Spine
+    400174: Zombie:Spine1
+    400176: Zombie:Spine2
+    400178: Zombie:TongueBack
+    400180: Zombie:TongueTip
     7400000: Zombie Idle
     9500000: //RootNode
     2186277476908879412: ImportLogs
@@ -154,7 +200,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid copied Avatar Rig Configuration:\n\tNo human bone found.
+      Ensure both rig type match\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -229,11 +276,11 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     serializedVersion: 2
     human:
-    - boneName: Hips
+    - boneName: Zombie:Hips
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -241,7 +288,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftUpLeg
+    - boneName: Zombie:LeftUpLeg
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -249,7 +296,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightUpLeg
+    - boneName: Zombie:RightUpLeg
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -257,7 +304,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftLeg
+    - boneName: Zombie:LeftLeg
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -265,7 +312,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightLeg
+    - boneName: Zombie:RightLeg
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -273,7 +320,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftFoot
+    - boneName: Zombie:LeftFoot
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -281,7 +328,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightFoot
+    - boneName: Zombie:RightFoot
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -289,7 +336,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Spine
+    - boneName: Zombie:Spine
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -297,7 +344,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Spine1
+    - boneName: Zombie:Spine1
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -305,7 +352,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Neck
+    - boneName: Zombie:Neck
       humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -313,7 +360,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Head
+    - boneName: Zombie:Head
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -321,7 +368,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftShoulder
+    - boneName: Zombie:LeftShoulder
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -329,7 +376,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightShoulder
+    - boneName: Zombie:RightShoulder
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -337,7 +384,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftArm
+    - boneName: Zombie:LeftArm
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -345,7 +392,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightArm
+    - boneName: Zombie:RightArm
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -353,7 +400,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftForeArm
+    - boneName: Zombie:LeftForeArm
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -361,7 +408,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightForeArm
+    - boneName: Zombie:RightForeArm
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -369,7 +416,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHand
+    - boneName: Zombie:LeftHand
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -377,7 +424,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHand
+    - boneName: Zombie:RightHand
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -385,7 +432,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftToeBase
+    - boneName: Zombie:LeftToeBase
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -393,7 +440,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightToeBase
+    - boneName: Zombie:RightToeBase
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -401,7 +448,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftEye
+    - boneName: Zombie:LeftEye
       humanName: LeftEye
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -409,7 +456,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightEye
+    - boneName: Zombie:RightEye
       humanName: RightEye
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -417,7 +464,15 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandThumb1
+    - boneName: Zombie:Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Zombie:LeftHandThumb1
       humanName: Left Thumb Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -425,7 +480,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandThumb2
+    - boneName: Zombie:LeftHandThumb2
       humanName: Left Thumb Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -433,7 +488,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandThumb3
+    - boneName: Zombie:LeftHandThumb3
       humanName: Left Thumb Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -441,7 +496,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandIndex1
+    - boneName: Zombie:LeftHandIndex1
       humanName: Left Index Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -449,7 +504,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandIndex2
+    - boneName: Zombie:LeftHandIndex2
       humanName: Left Index Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -457,7 +512,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandIndex3
+    - boneName: Zombie:LeftHandIndex3
       humanName: Left Index Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -465,7 +520,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandMiddle1
+    - boneName: Zombie:LeftHandMiddle1
       humanName: Left Middle Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -473,7 +528,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandMiddle2
+    - boneName: Zombie:LeftHandMiddle2
       humanName: Left Middle Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -481,7 +536,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandMiddle3
+    - boneName: Zombie:LeftHandMiddle3
       humanName: Left Middle Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -489,7 +544,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandRing1
+    - boneName: Zombie:LeftHandRing1
       humanName: Left Ring Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -497,7 +552,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandRing2
+    - boneName: Zombie:LeftHandRing2
       humanName: Left Ring Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -505,7 +560,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandRing3
+    - boneName: Zombie:LeftHandRing3
       humanName: Left Ring Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -513,7 +568,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandPinky1
+    - boneName: Zombie:LeftHandPinky1
       humanName: Left Little Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -521,7 +576,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandPinky2
+    - boneName: Zombie:LeftHandPinky2
       humanName: Left Little Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -529,7 +584,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: LeftHandPinky3
+    - boneName: Zombie:LeftHandPinky3
       humanName: Left Little Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -537,7 +592,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandThumb1
+    - boneName: Zombie:RightHandThumb1
       humanName: Right Thumb Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -545,7 +600,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandThumb2
+    - boneName: Zombie:RightHandThumb2
       humanName: Right Thumb Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -553,7 +608,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandThumb3
+    - boneName: Zombie:RightHandThumb3
       humanName: Right Thumb Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -561,7 +616,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandIndex1
+    - boneName: Zombie:RightHandIndex1
       humanName: Right Index Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -569,7 +624,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandIndex2
+    - boneName: Zombie:RightHandIndex2
       humanName: Right Index Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -577,7 +632,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandIndex3
+    - boneName: Zombie:RightHandIndex3
       humanName: Right Index Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -585,7 +640,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandMiddle1
+    - boneName: Zombie:RightHandMiddle1
       humanName: Right Middle Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -593,7 +648,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandMiddle2
+    - boneName: Zombie:RightHandMiddle2
       humanName: Right Middle Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -601,7 +656,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandMiddle3
+    - boneName: Zombie:RightHandMiddle3
       humanName: Right Middle Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -609,7 +664,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandRing1
+    - boneName: Zombie:RightHandRing1
       humanName: Right Ring Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -617,7 +672,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandRing2
+    - boneName: Zombie:RightHandRing2
       humanName: Right Ring Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -625,7 +680,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandRing3
+    - boneName: Zombie:RightHandRing3
       humanName: Right Ring Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -633,7 +688,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandPinky1
+    - boneName: Zombie:RightHandPinky1
       humanName: Right Little Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -641,7 +696,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandPinky2
+    - boneName: Zombie:RightHandPinky2
       humanName: Right Little Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -649,7 +704,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: RightHandPinky3
+    - boneName: Zombie:RightHandPinky3
       humanName: Right Little Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -657,7 +712,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Spine2
+    - boneName: Zombie:Spine2
       humanName: UpperChest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -666,344 +721,480 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Zombie idle(Clone)
+    - name: zombie(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Hips
-      parentName: Zombie idle(Clone)
-      position: {x: 0.0031850396, y: 0.97996217, z: 0.0024874662}
-      rotation: {x: -0.08487268, y: -0.021276332, z: 0.0061271014, w: 0.9961458}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftUpLeg
-      parentName: Hips
-      position: {x: -0.082077995, y: -0.067517, z: -0.015996}
-      rotation: {x: -0.014653897, y: -0.14778006, z: -0.065472275, w: 0.986742}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftLeg
-      parentName: LeftUpLeg
-      position: {x: -0.000066, y: -0.443632, z: 0.008544}
-      rotation: {x: 0.2800701, y: -0.0056820507, z: -0.025615916, w: 0.9596209}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftFoot
-      parentName: LeftLeg
-      position: {x: -0.000066, y: -0.44386, z: -0.035508998}
-      rotation: {x: -0.33245945, y: -0.012559907, z: 0.09854068, w: 0.93787146}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftToeBase
-      parentName: LeftFoot
-      position: {x: -0, y: -0.087286994, z: 0.107106}
-      rotation: {x: -0.0051900786, y: -0.000000002994756, z: 0.00000002128673, w: 0.9999865}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftToe_End
-      parentName: LeftToeBase
-      position: {x: -0, y: -0.0000069999996, z: 0.092781}
+    - name: Zombie_Geo
+      parentName: zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightUpLeg
-      parentName: Hips
-      position: {x: 0.082077995, y: -0.067517, z: -0.015996}
-      rotation: {x: -0.014477644, y: 0.18976647, z: 0.055929884, w: 0.98012805}
+    - name: Zombie:Hips
+      parentName: zombie(Clone)
+      position: {x: -0.0000000032997527, y: 0.9637561, z: -0.00035474394}
+      rotation: {x: -1.01911384e-16, y: -0.000000001608247, z: 0.00000005040407, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightLeg
-      parentName: RightUpLeg
-      position: {x: -0.000066, y: -0.443632, z: 0.008556}
-      rotation: {x: 0.28083545, y: 0.046636757, z: 0.025819244, w: 0.9582744}
+    - name: Zombie:RightUpLeg
+      parentName: Zombie:Hips
+      position: {x: 0.096338004, y: -0.032732964, z: 0.0000000011429422}
+      rotation: {x: -0.00025768162, y: 0.0000000017024662, z: -0.000000053219512,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightFoot
-      parentName: RightLeg
-      position: {x: -0.000066, y: -0.44385898, z: -0.03552}
-      rotation: {x: -0.3034082, y: -0.0041530426, z: -0.14980021, w: 0.9410027}
+    - name: Zombie:RightLeg
+      parentName: Zombie:RightUpLeg
+      position: {x: 0.00006491292, y: -0.4176184, z: -0.005783745}
+      rotation: {x: 0.00052701746, y: -0.000000044524604, z: -0.0000000017448833,
+        w: 0.9999999}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightToeBase
-      parentName: RightFoot
-      position: {x: -0, y: -0.087286994, z: 0.107106}
-      rotation: {x: 0.00000006761059, y: 2.6046223e-15, z: 0.00000005781837, w: 1}
+    - name: Zombie:RightFoot
+      parentName: Zombie:RightLeg
+      position: {x: -0.000064930246, y: -0.39148208, z: -0.01998097}
+      rotation: {x: -0.0002693273, y: 0.000000044445297, z: 0.000000004549313, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightToe_End
-      parentName: RightToeBase
-      position: {x: -0, y: -0.0000069999996, z: 0.092781}
+    - name: Zombie:RightToeBase
+      parentName: Zombie:RightFoot
+      position: {x: 0.001833, y: -0.121930994, z: 0.082823}
+      rotation: {x: -0.000000008585629, y: 6.531061e-11, z: -2.581829e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightFootToeBase_End
+      parentName: Zombie:RightToeBase
+      position: {x: -0.000031999985, y: 1.5793623e-10, z: 0.110323995}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Spine
-      parentName: Hips
-      position: {x: -0, y: 0.10181599, z: 0.001315}
-      rotation: {x: 0.08110881, y: 0.012809449, z: -0.010251053, w: 0.9965702}
+    - name: Zombie:LeftUpLeg
+      parentName: Zombie:Hips
+      position: {x: -0.09633798, y: -0.032733034, z: -0.0000000011429419}
+      rotation: {x: -0.0002532908, y: 0.0000000013388551, z: -0.00000004121176, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Spine1
-      parentName: Spine
-      position: {x: -0, y: 0.100834996, z: -0.010008}
-      rotation: {x: 0.1496044, y: 0.025825266, z: -0.0018765806, w: 0.98840684}
+    - name: Zombie:LeftLeg
+      parentName: Zombie:LeftUpLeg
+      position: {x: 0.0000649082, y: -0.41761863, z: -0.005765488}
+      rotation: {x: 0.0005195161, y: -0.000000044287546, z: -0.0000000024901652, w: 0.9999999}
       scale: {x: 1, y: 1, z: 1}
-    - name: Spine2
-      parentName: Spine1
-      position: {x: -0, y: 0.091, z: -0.013734}
-      rotation: {x: 0.14968164, y: 0.025399052, z: -0.001347132, w: 0.9884071}
+    - name: Zombie:LeftFoot
+      parentName: Zombie:LeftLeg
+      position: {x: -0.00006493492, y: -0.3914812, z: -0.019998498}
+      rotation: {x: -0.0002662167, y: 0.000000044565304, z: -0.0000000076444255, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftShoulder
-      parentName: Spine2
-      position: {x: -0.045704, y: 0.109459996, z: -0.026279999}
-      rotation: {x: 0.0040572993, y: -0.022821568, z: 0.09206602, w: 0.9954831}
+    - name: Zombie:LeftToeBase
+      parentName: Zombie:LeftFoot
+      position: {x: 0.0018329973, y: -0.121930994, z: 0.08282301}
+      rotation: {x: -0.000000008585629, y: 1.1699985e-10, z: 9.3132246e-10, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftArm
-      parentName: LeftShoulder
-      position: {x: -0.105923995, y: -0.0052460004, z: -0.022320999}
-      rotation: {x: -0.04950932, y: -0.0036050403, z: -0.06484865, w: 0.99665964}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftForeArm
-      parentName: LeftArm
-      position: {x: -0.278415, y: -0.000001, z: 0}
-      rotation: {x: -0.00780953, y: 0.0066475635, z: -0.011869702, w: 0.999877}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftHand
-      parentName: LeftForeArm
-      position: {x: -0.283288, y: 0, z: 0}
-      rotation: {x: 0.1555941, y: 0.10051455, z: -0.17399931, w: 0.9671668}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandIndex1
-      parentName: LeftHand
-      position: {x: -0.091093, y: -0.0051709996, z: 0.022601}
-      rotation: {x: -0.00000014901161, y: -0.009287514, z: 0.07725516, w: 0.99696815}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandIndex2
-      parentName: LeftHandIndex1
-      position: {x: -0.036764, y: 0, z: 0}
-      rotation: {x: 0.000000040543373, y: -0.0039706402, z: 0.0330216, w: 0.9994468}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandIndex3
-      parentName: LeftHandIndex2
-      position: {x: -0.028831, y: 0, z: 0}
-      rotation: {x: 0.00000008421632, y: -0.0045963293, z: 0.038217913, w: 0.99925894}
-      scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandIndex4
-      parentName: LeftHandIndex3
-      position: {x: -0.023927, y: 0, z: 0}
+    - name: Zombie:LeftFootToeBase_End
+      parentName: Zombie:LeftToeBase
+      position: {x: -0.0000000032620715, y: -1.00672325e-10, z: 0.110323995}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandMiddle1
-      parentName: LeftHand
-      position: {x: -0.09533399, y: 0, z: 0}
-      rotation: {x: -0.0000001490116, y: -0.00928834, z: 0.07726196, w: 0.9969676}
+    - name: Zombie:Spine
+      parentName: Zombie:Hips
+      position: {x: -0.000000034853144, y: 0.092263, z: 0.015771}
+      rotation: {x: 1.0190992e-16, y: 0.000000001608247, z: -0.000000050404978, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandMiddle2
-      parentName: LeftHandMiddle1
-      position: {x: -0.036982, y: 0, z: 0}
-      rotation: {x: 0.00000009926881, y: -0.003969674, z: 0.033013422, w: 0.99944705}
+    - name: Zombie:Spine1
+      parentName: Zombie:Spine
+      position: {x: 2.9929246e-13, y: 0.16253999, z: -0.001656}
+      rotation: {x: 3.8774097e-26, y: -4.263257e-14, z: 6.82121e-13, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandMiddle3
-      parentName: LeftHandMiddle2
-      position: {x: -0.029509, y: 0, z: 0}
-      rotation: {x: 0.00000016797608, y: -0.0045957095, z: 0.038218983, w: 0.9992589}
+    - name: Zombie:Spine2
+      parentName: Zombie:Spine1
+      position: {x: 6.617702e-14, y: 0.13639599, z: -0.012922999}
+      rotation: {x: 0, y: 0, z: 5.650639e-37, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandMiddle4
-      parentName: LeftHandMiddle3
-      position: {x: -0.028338999, y: 0, z: 0}
+    - name: Zombie:RightShoulder
+      parentName: Zombie:Spine2
+      position: {x: 0.061402, y: 0.10187, z: -0.037932}
+      rotation: {x: -0.000000014901161, y: 4.2632564e-14, z: -0.000000044703256, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightArm
+      parentName: Zombie:RightShoulder
+      position: {x: 0.123231, y: -0.011130012, z: -0.017934998}
+      rotation: {x: 0.000000014901161, y: 7.7756505e-24, z: 0.000000044703484, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightForeArm
+      parentName: Zombie:RightArm
+      position: {x: 0.27686998, y: -4.5474734e-15, z: 0}
+      rotation: {x: -0.000000059604638, y: 0.000000004141816, z: -3.0589701e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightHand
+      parentName: Zombie:RightForeArm
+      position: {x: 0.278738, y: -6.536993e-15, z: -0.0000000023089628}
+      rotation: {x: 0.0000702892, y: -0.000000044703473, z: 3.139649e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightHandPinky1
+      parentName: Zombie:RightHand
+      position: {x: 0.09791011, y: -0.002135372, z: -0.043783117}
+      rotation: {x: 0.0000000745058, y: 2.094115e-12, z: 0.0000000149011585, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightHandPinky2
+      parentName: Zombie:RightHandPinky1
+      position: {x: 0.036528, y: 0.0000000011134801, z: 0.0000000018100644}
+      rotation: {x: -0.000000014901161, y: 0.000000029800228, z: -0.000000014905348,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightHandPinky3
+      parentName: Zombie:RightHandPinky2
+      position: {x: 0.02782, y: 1.8934543e-11, z: 5.494583e-10}
+      rotation: {x: -0.00000008940696, y: -1.8716781e-19, z: -1.3322675e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightHandPinky4
+      parentName: Zombie:RightHandPinky3
+      position: {x: 0.024999999, y: 1.7015224e-11, z: 4.93762e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandPinky1
-      parentName: LeftHand
-      position: {x: -0.080777995, y: -0.0048869997, z: -0.038060997}
-      rotation: {x: 0.006716444, y: -0.023431068, z: 0.07403376, w: 0.99695784}
+    - name: Zombie:RightHandRing1
+      parentName: Zombie:RightHand
+      position: {x: 0.10391908, y: 0.0010482564, z: -0.023499057}
+      rotation: {x: 0.00000002980232, y: 0.000000029800228, z: -0.000000014905348,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandPinky2
-      parentName: LeftHandPinky1
-      position: {x: -0.036, y: 0, z: 0}
-      rotation: {x: 0.007403202, y: 0.001666227, z: 0.033058606, w: 0.9994246}
+    - name: Zombie:RightHandRing2
+      parentName: Zombie:RightHandRing1
+      position: {x: 0.054013, y: -0.0000000016001669, z: 0.0000000010559478}
+      rotation: {x: -0.000000029802319, y: -0.000000029796038, z: 0.00000004470766,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandPinky3
-      parentName: LeftHandPinky2
-      position: {x: -0.021142, y: 0, z: 0}
-      rotation: {x: 0.00000022724268, y: -0.0045935926, z: 0.03822011, w: 0.9992588}
+    - name: Zombie:RightHandRing3
+      parentName: Zombie:RightHandRing2
+      position: {x: 0.033915997, y: 0.0000000020275441, z: 0.0000000026846039}
+      rotation: {x: 0.000000059604638, y: 0.000000014890691, z: -0.000000074507895,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandPinky4
-      parentName: LeftHandPinky3
-      position: {x: -0.019756999, y: 0, z: 0}
+    - name: Zombie:RightHandRing4
+      parentName: Zombie:RightHandRing3
+      position: {x: 0.016, y: -0.0000000014276839, z: 7.89635e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandRing1
-      parentName: LeftHand
-      position: {x: -0.091045, y: -0.000439, z: -0.018651}
-      rotation: {x: -0.00000016391277, y: -0.009287946, z: 0.07725447, w: 0.99696815}
+    - name: Zombie:RightHandMiddle1
+      parentName: Zombie:RightHand
+      position: {x: 0.10779225, y: 2.1532798e-10, z: 0.000000008645373}
+      rotation: {x: 0.000000014901159, y: 0.000000044699302, z: -0.000000029808607,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandRing2
-      parentName: LeftHandRing1
-      position: {x: -0.03154, y: 0, z: 0}
-      rotation: {x: -0.00000011375536, y: -0.003969468, z: 0.033022348, w: 0.9994468}
+    - name: Zombie:RightHandMiddle2
+      parentName: Zombie:RightHandMiddle1
+      position: {x: 0.056167997, y: -0.000000003410912, z: -4.529203e-10}
+      rotation: {x: -0.000000014901161, y: -0.000000014901165, z: 2.0932277e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandRing3
-      parentName: LeftHandRing2
-      position: {x: -0.029377, y: 0, z: 0}
-      rotation: {x: 0.00000026163207, y: -0.0045954445, z: 0.03820011, w: 0.99925953}
+    - name: Zombie:RightHandMiddle3
+      parentName: Zombie:RightHandMiddle2
+      position: {x: 0.037364, y: -0.0000000022690019, z: 8.12243e-10}
+      rotation: {x: 0.000000059604645, y: 0.0000000298086, z: 0.000000044699302, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandRing4
-      parentName: LeftHandRing3
-      position: {x: -0.026475, y: -0.000001, z: 0}
+    - name: Zombie:RightHandMiddle4
+      parentName: Zombie:RightHandMiddle3
+      position: {x: 0.019, y: 5.4492005e-10, z: -7.1945366e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandThumb1
-      parentName: LeftHand
-      position: {x: -0.024660999, y: -0.01575, z: 0.026824}
-      rotation: {x: -0.2279158, y: 0.048476372, z: -0.35658547, w: 0.90473825}
+    - name: Zombie:RightHandIndex1
+      parentName: Zombie:RightHand
+      position: {x: 0.10577313, y: -0.0017504537, z: 0.02287372}
+      rotation: {x: 0.000000014901163, y: 2.0932269e-12, z: 0.000000014901159, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandThumb2
-      parentName: LeftHandThumb1
-      position: {x: -0.032298, y: -0.018646998, z: 0.018646998}
-      rotation: {x: -0.034834586, y: -0.05443276, z: 0.020023197, w: 0.99770874}
+    - name: Zombie:RightHandIndex2
+      parentName: Zombie:RightHandIndex1
+      position: {x: 0.053767998, y: 0.0000000015104337, z: 0.00000000422524}
+      rotation: {x: -0.00000004470348, y: -0.000000014901158, z: 2.0945587e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandThumb3
-      parentName: LeftHandThumb2
-      position: {x: -0.026526, y: -0.015314999, z: 0.015314999}
-      rotation: {x: -0.012065368, y: -0.046230838, z: -0.0028271922, w: 0.9988539}
+    - name: Zombie:RightHandIndex3
+      parentName: Zombie:RightHandIndex2
+      position: {x: 0.033855, y: 9.510438e-10, z: 0.000000003669378}
+      rotation: {x: 0.000000029802326, y: 0.000000014905343, z: 0.000000029800233,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftHandThumb4
-      parentName: LeftHandThumb3
-      position: {x: -0.019545998, y: -0.011285, z: 0.011285}
+    - name: Zombie:RightHandIndex4
+      parentName: Zombie:RightHandIndex3
+      position: {x: 0.018, y: 0.0000000015785341, z: 0.0000000014144902}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Neck
-      parentName: Spine2
-      position: {x: -0, y: 0.166717, z: -0.025162}
-      rotation: {x: -0.13873078, y: -0.00936605, z: 0.0092233615, w: 0.9902429}
+    - name: Zombie:RightHandThumb1
+      parentName: Zombie:RightHand
+      position: {x: 0.025704324, y: -0.012447767, z: 0.02319228}
+      rotation: {x: -0.000028103921, y: -0.00002265739, z: 0.000026064263, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Head
-      parentName: Neck
-      position: {x: -0, y: 0.09617899, z: 0.016849998}
-      rotation: {x: -0.2818589, y: -0.028905597, z: -0.01771835, w: 0.9588567}
+    - name: Zombie:RightHandThumb2
+      parentName: Zombie:RightHandThumb1
+      position: {x: 0.03518788, y: -0.020315731, z: 0.020315742}
+      rotation: {x: 0.000000029802642, y: 0.0000011738479, z: 0.0000011589484, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: HeadTop_End
-      parentName: Head
-      position: {x: -0, y: 0.17815201, z: 0.02585}
+    - name: Zombie:RightHandThumb3
+      parentName: Zombie:RightHandThumb2
+      position: {x: 0.03945231, y: -0.022777805, z: 0.022777809}
+      rotation: {x: 0.000000029799464, y: -0.000013280405, z: -0.000013354913, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightHandThumb4
+      parentName: Zombie:RightHandThumb3
+      position: {x: 0.019995565, y: -0.011544446, z: 0.0115444455}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: LeftEye
-      parentName: Head
-      position: {x: -0.030676, y: 0.064095, z: 0.092836}
+    - name: Zombie:LeftShoulder
+      parentName: Zombie:Spine2
+      position: {x: -0.061442, y: 0.10187, z: -0.037932}
+      rotation: {x: -0.000000044703484, y: 4.2632557e-14, z: -0.000000044703256, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftArm
+      parentName: Zombie:LeftShoulder
+      position: {x: -0.123191, y: -0.01112999, z: -0.017934998}
+      rotation: {x: 0.000000044703484, y: 2.4507967e-22, z: 0.000000044703484, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftForeArm
+      parentName: Zombie:LeftArm
+      position: {x: -0.27686998, y: 4.5474734e-15, z: 0}
+      rotation: {x: -0.000000059604638, y: -0.0000000041418176, z: -1.03060373e-22,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHand
+      parentName: Zombie:LeftForeArm
+      position: {x: -0.278738, y: 4.5474734e-15, z: -0.0000000023089648}
+      rotation: {x: 0.00013017112, y: 0.000000044703476, z: -5.8163335e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHandPinky1
+      parentName: Zombie:LeftHand
+      position: {x: -0.098202504, y: -0.0021087117, z: -0.044184137}
+      rotation: {x: 0.00000002980232, y: -0.000000014905037, z: -0.000000014897282,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHandPinky2
+      parentName: Zombie:LeftHandPinky1
+      position: {x: -0.036763, y: 0.0000000011884796, z: 0.000000001927658}
+      rotation: {x: 0.000000029802319, y: -0.000000014897281, z: 0.000000014905039,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHandPinky3
+      parentName: Zombie:LeftHandPinky2
+      position: {x: -0.028113, y: 7.100851e-11, z: 6.3626515e-10}
+      rotation: {x: -0.00000005960464, y: -0.000000029810074, z: -0.000000029794561,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHandPinky4
+      parentName: Zombie:LeftHandPinky3
+      position: {x: -0.024999999, y: 0.0000000015532617, z: -9.243055e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightEye
-      parentName: Head
-      position: {x: 0.030676, y: 0.064095, z: 0.092834994}
+    - name: Zombie:LeftHandRing1
+      parentName: Zombie:LeftHand
+      position: {x: -0.1024075, y: -0.00046628728, z: -0.02314136}
+      rotation: {x: 0.000000029802319, y: -0.000000029798443, z: 0.000000014908917,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHandRing2
+      parentName: Zombie:LeftHandRing1
+      position: {x: -0.054452, y: -0.0000000014772601, z: 0.0000000011526621}
+      rotation: {x: -0.000000029802317, y: 0.000000029790682, z: -0.000000044711232,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHandRing3
+      parentName: Zombie:LeftHandRing2
+      position: {x: -0.037132, y: 0.0000000023124829, z: 0.0000000029992644}
+      rotation: {x: 0.00000005960464, y: -0.000000014897281, z: 0.000000014905034,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftHandRing4
+      parentName: Zombie:LeftHandRing3
+      position: {x: -0.016, y: 5.196006e-10, z: 8.155316e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightShoulder
-      parentName: Spine2
-      position: {x: 0.045700002, y: 0.109462, z: -0.026279999}
-      rotation: {x: 0.019997211, y: -0.046718508, z: -0.092479445, w: 0.99441695}
+    - name: Zombie:LeftHandIndex1
+      parentName: Zombie:LeftHand
+      position: {x: -0.105147645, y: -0.0023076152, z: 0.022649068}
+      rotation: {x: 0.0000000745058, y: -3.878735e-12, z: -0.000000014901159, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightArm
-      parentName: RightShoulder
-      position: {x: 0.105928, y: -0.005248, z: -0.022320999}
-      rotation: {x: -0.20596707, y: -0.016909964, z: 0.10063863, w: 0.9732232}
+    - name: Zombie:LeftHandIndex2
+      parentName: Zombie:LeftHandIndex1
+      position: {x: -0.055493, y: 0.0000000018567619, z: 0.000000004541355}
+      rotation: {x: -0.00000010430812, y: 0.00000001490116, z: -3.8800673e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightForeArm
-      parentName: RightArm
-      position: {x: 0.278415, y: 0, z: 0}
-      rotation: {x: -0.008063047, y: -0.003862617, z: 0.008987856, w: 0.99991965}
+    - name: Zombie:LeftHandIndex3
+      parentName: Zombie:LeftHandIndex2
+      position: {x: -0.033910997, y: 0.0000000011346415, z: 0.0000000037857855}
+      rotation: {x: 7.4989665e-15, y: 0.000000014885653, z: -0.000000059608524, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHand
-      parentName: RightForeArm
-      position: {x: 0.283288, y: 0, z: 0.000001}
-      rotation: {x: 0.19629405, y: -0.020913498, z: 0.04967687, w: 0.97906256}
-      scale: {x: 1, y: 1, z: 1}
-    - name: RightHandIndex1
-      parentName: RightHand
-      position: {x: 0.091083, y: -0.005168, z: 0.022601}
-      rotation: {x: -0.00000016391277, y: 0.0093773175, z: -0.07724154, w: 0.9969683}
-      scale: {x: 1, y: 1, z: 1}
-    - name: RightHandIndex2
-      parentName: RightHandIndex1
-      position: {x: 0.036764, y: 0, z: 0}
-      rotation: {x: 0.000000009250439, y: 0.0040064105, z: -0.03301794, w: 0.9994468}
-      scale: {x: 1, y: 1, z: 1}
-    - name: RightHandIndex3
-      parentName: RightHandIndex2
-      position: {x: 0.028831, y: 0, z: 0}
-      rotation: {x: 0.00000010234305, y: 0.0046394286, z: -0.038212027, w: 0.99925894}
-      scale: {x: 1, y: 1, z: 1}
-    - name: RightHandIndex4
-      parentName: RightHandIndex3
-      position: {x: 0.023927, y: 0, z: 0}
+    - name: Zombie:LeftHandIndex4
+      parentName: Zombie:LeftHandIndex3
+      position: {x: -0.018, y: 0.0000000027480365, z: 0.0000000025459415}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandMiddle1
-      parentName: RightHand
-      position: {x: 0.095325, y: 0, z: 0}
-      rotation: {x: -0.000000104308114, y: 0.0093770875, z: -0.07724291, w: 0.9969682}
+    - name: Zombie:LeftHandMiddle1
+      parentName: Zombie:LeftHand
+      position: {x: -0.10490753, y: 4.1607165e-10, z: 0.000000008500843}
+      rotation: {x: 0.0000000149011585, y: -0.00000004469573, z: 0.000000029813958,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandMiddle2
-      parentName: RightHandMiddle1
-      position: {x: 0.036982, y: 0, z: 0}
-      rotation: {x: 0.00000015379422, y: 0.0040075337, z: -0.03301533, w: 0.9994468}
+    - name: Zombie:LeftHandMiddle2
+      parentName: Zombie:LeftHandMiddle1
+      position: {x: -0.057921, y: -0.0000000034040113, z: -0.0000000021139983}
+      rotation: {x: -0.00000001490116, y: 0.000000014901163, z: -3.8778477e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandMiddle3
-      parentName: RightHandMiddle2
-      position: {x: 0.029509, y: 0, z: 0}
-      rotation: {x: 0.00000088685965, y: 0.0046565505, z: -0.038214467, w: 0.99925876}
+    - name: Zombie:LeftHandMiddle3
+      parentName: Zombie:LeftHandMiddle2
+      position: {x: -0.037132, y: -0.0000000021822435, z: 8.579972e-10}
+      rotation: {x: 3.2083898e-16, y: -3.8758497e-12, z: -0.000000014901165, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandMiddle4
-      parentName: RightHandMiddle3
-      position: {x: 0.028338999, y: 0, z: 0.000001}
+    - name: Zombie:LeftHandMiddle4
+      parentName: Zombie:LeftHandMiddle3
+      position: {x: -0.019, y: -5.5038357e-10, z: 4.3902698e-10}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandPinky1
-      parentName: RightHand
-      position: {x: 0.080767, y: -0.0048849997, z: -0.03806}
-      rotation: {x: 0.0000010728835, y: 0.009390934, z: -0.077243134, w: 0.9969681}
+    - name: Zombie:LeftHandThumb1
+      parentName: Zombie:LeftHand
+      position: {x: -0.024210142, y: -0.013949037, z: 0.023927223}
+      rotation: {x: -0.00005205644, y: 0.000045538898, z: -0.000044670443, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandPinky2
-      parentName: RightHandPinky1
-      position: {x: 0.036, y: 0, z: 0.000001}
-      rotation: {x: 0.00000047807663, y: 0.003993576, z: -0.033016432, w: 0.99944687}
+    - name: Zombie:LeftHandThumb2
+      parentName: Zombie:LeftHandThumb1
+      position: {x: -0.034965128, y: -0.020187123, z: 0.020187132}
+      rotation: {x: 0.000000040009596, y: -0.0000017490489, z: -0.0000016988485, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandPinky3
-      parentName: RightHandPinky2
-      position: {x: 0.021142, y: 0, z: 0}
-      rotation: {x: 0.00000015413225, y: 0.0046389364, z: -0.038215067, w: 0.9992588}
+    - name: Zombie:LeftHandThumb3
+      parentName: Zombie:LeftHandThumb2
+      position: {x: -0.040113993, y: -0.023159822, z: 0.023159826}
+      rotation: {x: -8.166566e-12, y: 0.000007104747, z: 0.00000714945, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandPinky4
-      parentName: RightHandPinky3
-      position: {x: 0.019756999, y: 0, z: 0}
+    - name: Zombie:LeftHandThumb4
+      parentName: Zombie:LeftHandThumb3
+      position: {x: -0.021227058, y: -0.01225545, z: 0.012255449}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandRing1
-      parentName: RightHand
-      position: {x: 0.09103599, y: -0.000439, z: -0.018651}
-      rotation: {x: 0.0000000745058, y: 0.009376378, z: -0.07724365, w: 0.99696815}
+    - name: Zombie:Neck
+      parentName: Zombie:Spine2
+      position: {x: 6.9922306e-14, y: 0.13877401, z: -0.043541998}
+      rotation: {x: 0, y: 0, z: 5.650639e-37, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandRing2
-      parentName: RightHandRing1
-      position: {x: 0.03154, y: 0, z: 0}
-      rotation: {x: 0.0000000064560184, y: 0.0040083816, z: -0.033015825, w: 0.9994468}
+    - name: Zombie:Neck1
+      parentName: Zombie:Neck
+      position: {x: 9.703015e-16, y: 0.0434, z: 0.009269}
+      rotation: {x: 0, y: 0, z: 5.650639e-37, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandRing3
-      parentName: RightHandRing2
-      position: {x: 0.029377, y: 0, z: 0}
-      rotation: {x: 0.00000012412099, y: 0.004639976, z: -0.038214058, w: 0.9992589}
+    - name: Zombie:Head
+      parentName: Zombie:Neck1
+      position: {x: 9.00234e-16, y: 0.040266, z: 0.0085849995}
+      rotation: {x: 0, y: 0, z: 5.650639e-37, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandRing4
-      parentName: RightHandRing3
-      position: {x: 0.026475, y: 0, z: 0}
+    - name: Zombie:HeadTop_End
+      parentName: Zombie:Head
+      position: {x: 3.998913e-15, y: 0.178866, z: 0.001231}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandThumb1
-      parentName: RightHand
-      position: {x: 0.024647998, y: -0.015727, z: 0.026826}
-      rotation: {x: -0.20203774, y: -0.086383015, z: 0.29485735, w: 0.9299343}
+    - name: Zombie:RightLipUpper
+      parentName: Zombie:Head
+      position: {x: 0.010558, y: 0.0053649996, z: 0.13611}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandThumb2
-      parentName: RightHandThumb1
-      position: {x: 0.032298, y: -0.018646998, z: 0.018646998}
-      rotation: {x: -0.03428927, y: 0.05389057, z: -0.020536339, w: 0.99774665}
+    - name: Zombie:RightNostril
+      parentName: Zombie:Head
+      position: {x: 0.013541, y: 0.028378999, z: 0.130276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandThumb3
-      parentName: RightHandThumb2
-      position: {x: 0.026526, y: -0.015314, z: 0.015314}
-      rotation: {x: -0.013004202, y: 0.04669034, z: 0.0044041313, w: 0.9988151}
+    - name: Zombie:RightCheek
+      parentName: Zombie:Head
+      position: {x: 0.038425, y: 0.037369, z: 0.112813994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: RightHandThumb4
-      parentName: RightHandThumb3
-      position: {x: 0.019545998, y: -0.011285, z: 0.011285}
+    - name: Zombie:RightEyelidLower
+      parentName: Zombie:Head
+      position: {x: 0.030694999, y: 0.065937, z: 0.115719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightEyelidUpper
+      parentName: Zombie:Head
+      position: {x: 0.030694999, y: 0.078716, z: 0.118064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightIOuterBrow
+      parentName: Zombie:Head
+      position: {x: 0.044708, y: 0.082551, z: 0.11765999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightInnerBrow
+      parentName: Zombie:Head
+      position: {x: 0.016267, y: 0.08095899, z: 0.13069999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftIOuterBrow
+      parentName: Zombie:Head
+      position: {x: -0.044708, y: 0.082554, z: 0.117658995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftInnerBrow
+      parentName: Zombie:Head
+      position: {x: -0.016267998, y: 0.080956, z: 0.13069999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftEyelidUpper
+      parentName: Zombie:Head
+      position: {x: -0.030694999, y: 0.078718, z: 0.118064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftEyelidLower
+      parentName: Zombie:Head
+      position: {x: -0.030694999, y: 0.065933995, z: 0.115719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftCheek
+      parentName: Zombie:Head
+      position: {x: -0.038425, y: 0.037364, z: 0.11281499}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftNostril
+      parentName: Zombie:Head
+      position: {x: -0.013541, y: 0.028381, z: 0.13027701}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftLipUpper
+      parentName: Zombie:Head
+      position: {x: -0.010558, y: 0.005367, z: 0.136111}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:Jaw
+      parentName: Zombie:Head
+      position: {x: 2.2797773e-17, y: 0.001018, z: 0.053701}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftLipCorner
+      parentName: Zombie:Jaw
+      position: {x: -0.03141, y: 0.00361, z: 0.062659994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightLipCorner
+      parentName: Zombie:Jaw
+      position: {x: 0.03141, y: 0.0036109998, z: 0.062659994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightLipLower
+      parentName: Zombie:Jaw
+      position: {x: 0.009831, y: -0.006913, z: 0.077034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:JawEND
+      parentName: Zombie:Jaw
+      position: {x: -2.541205e-16, y: -0.011368999, z: 0.079183996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftLipLower
+      parentName: Zombie:Jaw
+      position: {x: -0.009831, y: -0.006915, z: 0.077034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:TongueTip
+      parentName: Zombie:Jaw
+      position: {x: -1.3040607e-16, y: -0.005835, z: 0.066098996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:TongueBack
+      parentName: Zombie:Jaw
+      position: {x: -3.795021e-17, y: -0.001699, z: 0.048172}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:RightEye
+      parentName: Zombie:Head
+      position: {x: 0.032403, y: 0.074271, z: 0.099067}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zombie:LeftEye
+      parentName: Zombie:Head
+      position: {x: -0.032401, y: 0.074271, z: 0.099067}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
@@ -1014,11 +1205,11 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 651c0187e519ee34192097ce2178b9fe,
+    type: 3}
   animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
