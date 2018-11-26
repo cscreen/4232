@@ -16,9 +16,10 @@ public class Player_Controller : MonoBehaviour {
     [SerializeField] private Transform trans;
     [SerializeField] private Rigidbody rb;
 
-    [SerializeField] private Transform zombieTrans;
-    [SerializeField] private Rigidbody zombieRb;
- 
+    [SerializeField] private Transform zomTrans;
+    [SerializeField] private Rigidbody zomRb;
+
+
     //max speed of character
     private float maxSpeed;
     //radius where character has reached target
@@ -45,6 +46,8 @@ public class Player_Controller : MonoBehaviour {
 
     private Animator anim;
 
+    private float range;
+
     // Use this for initialization
     void Start()
     {
@@ -56,8 +59,8 @@ public class Player_Controller : MonoBehaviour {
         turnSpeed = 5f;
         damageToDeal = 0;
         targetPoint = Vector3.zero;
-        trans.position = GameObject.FindGameObjectWithTag("PlayerStart").transform.position;
         endpoint = trans.position;
+        range = 10f;
     }
 
     // Update is called once per frame
@@ -77,15 +80,9 @@ public class Player_Controller : MonoBehaviour {
 
     private void playerMovement()
     {
+        var heading = trans.position - zomTrans.position;
         //resets target point on each frame
-        if (trans.position != GameObject.FindGameObjectWithTag("PlayerStart").transform.position)
-        {
-            targetPoint = Vector3.zero;
-        }
-        else
-        {
-            targetPoint = GameObject.FindGameObjectWithTag("PlayerStart").transform.position;
-        }
+        targetPoint = Vector3.zero;
         //new end point is only saved if mouse is clicked
         if (Input.GetMouseButtonDown(0))
         {
@@ -115,16 +112,30 @@ public class Player_Controller : MonoBehaviour {
             // Move character
             rb.velocity = towards;
 
+            Quaternion targetRotation;
+            if (heading.sqrMagnitude < range * range)
+            {
+                Vector3 towardsZom = zomTrans.position - trans.position;
+                targetRotation = Quaternion.LookRotation(towardsZom);
+                
+
+            }else
+            {
+
             //rotates player to look at target location
-            Quaternion targetRotation = Quaternion.LookRotation(towards);
+            targetRotation = Quaternion.LookRotation(towards);
+            }
+
             trans.rotation = Quaternion.Lerp(trans.rotation, targetRotation, turnSpeed * Time.deltaTime);
+
+
         } else //player rotates randomly without else statement more testing needed
         {
             anim.SetFloat("Speed", 0);
             rb.velocity = Vector3.zero;
             //rotates player to look at target location
-            Quaternion targetRotation = Quaternion.LookRotation(towards);
-            trans.rotation = Quaternion.Lerp(trans.rotation, targetRotation, turnSpeed * Time.deltaTime);
+            //Quaternion targetRotation = Quaternion.LookRotation(towards);
+            //trans.rotation = Quaternion.Lerp(trans.rotation, targetRotation, turnSpeed * Time.deltaTime);
         }
     }
 
@@ -135,37 +146,31 @@ public class Player_Controller : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             currentAct = Action.Punch;
-            damageToDeal = 50;
-            print("punch");
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            currentAct = Action.Ax;
-            damageToDeal = 3;
-            print("ax");
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            currentAct = Action.Gun;
             damageToDeal = 5;
-            print("gun");
+            print("punch");
+            anim.SetBool("Punching", true);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             currentAct = Action.Sword;
-            damageToDeal = 4;
+            damageToDeal = 30;
             print("sword");
+            anim.SetBool("Slashing", true);
         }
 
-        //if within range of zombie cause damage to zombie
-        Vector3 vecToZombie = trans.forward - zombieTrans.forward;
-        if (vecToZombie.magnitude > withinRange)
+        if (Input.GetKeyUp(KeyCode.Alpha1))
         {
-            //damage zombie using damageToDeal
+            anim.SetBool("Punching", false);
         }
+
+        if (Input.GetKeyUp(KeyCode.Alpha2))
+        {
+            anim.SetBool("Slashing", false);
+        }
+
     }
 
-    /* will be used when walls are added
+     //will be used when walls are added
     public void OnCollisionEnter(Collision col)
     {
         //stops player from moving when colliding with a wall
@@ -175,5 +180,5 @@ public class Player_Controller : MonoBehaviour {
             //print("wall");
             rb.velocity = Vector3.zero;
         }
-    }*/
+    }
 }
