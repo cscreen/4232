@@ -16,10 +16,6 @@ public class Player_Controller : MonoBehaviour {
     [SerializeField] private Transform trans;
     [SerializeField] private Rigidbody rb;
 
-    [SerializeField] private Transform zomTrans;
-    [SerializeField] private Rigidbody zomRb;
-
-
     //max speed of character
     private float maxSpeed;
     //radius where character has reached target
@@ -80,7 +76,7 @@ public class Player_Controller : MonoBehaviour {
 
     private void playerMovement()
     {
-        var heading = trans.position - zomTrans.position;
+        
         //resets target point on each frame
         targetPoint = Vector3.zero;
         //new end point is only saved if mouse is clicked
@@ -112,19 +108,8 @@ public class Player_Controller : MonoBehaviour {
             // Move character
             rb.velocity = towards;
 
-            Quaternion targetRotation;
-            if (heading.sqrMagnitude < range * range)
-            {
-                Vector3 towardsZom = zomTrans.position - trans.position;
-                targetRotation = Quaternion.LookRotation(towardsZom);
-                
-
-            }else
-            {
-
-            //rotates player to look at target location
-            targetRotation = Quaternion.LookRotation(towards);
-            }
+            Quaternion targetRotation = Quaternion.LookRotation(towards);
+            
 
             trans.rotation = Quaternion.Lerp(trans.rotation, targetRotation, turnSpeed * Time.deltaTime);
 
@@ -133,9 +118,6 @@ public class Player_Controller : MonoBehaviour {
         {
             anim.SetFloat("Speed", 0);
             rb.velocity = Vector3.zero;
-            //rotates player to look at target location
-            //Quaternion targetRotation = Quaternion.LookRotation(towards);
-            //trans.rotation = Quaternion.Lerp(trans.rotation, targetRotation, turnSpeed * Time.deltaTime);
         }
     }
 

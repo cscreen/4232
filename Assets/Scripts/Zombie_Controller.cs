@@ -30,8 +30,8 @@ public class Zombie_Controller : MonoBehaviour {
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
-        maxSpeed = 8f;
-        radiusOfSat = 3f;
+        maxSpeed = 10f;
+        radiusOfSat = 1.5f;
         range = 20f;
         turnSpeed = 5f;
         targetPoint = Vector3.zero;
