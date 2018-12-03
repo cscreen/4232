@@ -30,7 +30,7 @@ public class Zombie_Controller : MonoBehaviour {
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
-        maxSpeed = 10f;
+        maxSpeed = 20f;
         radiusOfSat = 1.5f;
         range = 20f;
         turnSpeed = 5f;
@@ -85,6 +85,14 @@ public class Zombie_Controller : MonoBehaviour {
         } else
         {
             anim.SetFloat("Speed", 0);
+        }
+    }
+
+    private void OnCollisionEnter(Collision col)
+    {
+        if(col.gameObject.tag == "Player")
+        {
+            anim.SetTrigger("Collision");
         }
     }
 }
