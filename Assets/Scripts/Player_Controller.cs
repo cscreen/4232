@@ -28,9 +28,6 @@ public class Player_Controller : MonoBehaviour {
     //variable to save postion of mouse click
     private Vector3 endpoint;
 
-    //NOTE: may move this to a game controller file
-    private int health;
-
     //distance to zombie to be within range and cause damage
     private float withinRange;
 
@@ -44,11 +41,13 @@ public class Player_Controller : MonoBehaviour {
 
     private float range;
 
+    PlayerHealth health;
+
     // Use this for initialization
     void Start()
     {
         anim = GetComponent<Animator>();
-        health = 100;
+        health = GetComponent<PlayerHealth>();
         maxSpeed = 8f;
         radiusOfSat = 3f;
         withinRange = 4f;
@@ -129,14 +128,14 @@ public class Player_Controller : MonoBehaviour {
         {
             currentAct = Action.Punch;
             damageToDeal = 5;
-            print("punch");
+            //print("punch");
             anim.SetBool("Punching", true);
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             currentAct = Action.Sword;
             damageToDeal = 30;
-            print("sword");
+            //print("sword");
             anim.SetBool("Slashing", true);
         }
 
@@ -148,6 +147,12 @@ public class Player_Controller : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.Alpha2))
         {
             anim.SetBool("Slashing", false);
+        }
+
+        //only use for testing
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            health.TakeDamage(50);
         }
 
     }
