@@ -8,8 +8,8 @@ public class Zombie_Controller : MonoBehaviour {
     [SerializeField] private Transform trans;
     [SerializeField] private Rigidbody rb;
 
-    [SerializeField] private Transform playerTrans;
-    [SerializeField] private Rigidbody playerRb;
+    private Transform playerTrans;
+    private Rigidbody playerRb;
 
     //max speed of character
     private float maxSpeed;
@@ -23,9 +23,16 @@ public class Zombie_Controller : MonoBehaviour {
     //variable to save postion of mouse click
     private Vector3 endpoint;
 
+    //The health the zombie starts with at the begin of play
+    private int zombieHealth = 50;
+
     private float range;
 
     private Animator anim;
+
+    private GameObject player;
+
+    RaycastHit hit;
 
     // Use this for initialization
     void Start () {
@@ -36,11 +43,41 @@ public class Zombie_Controller : MonoBehaviour {
         turnSpeed = 5f;
         targetPoint = Vector3.zero;
         endpoint = trans.position;
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
+        playerRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
     }
 	
 	// Update is called once per frame
 	void Update () {
         movement();
+        int damageToDeal = 0;
+        Animation playerMove = player.GetComponent<Animation>();
+        //Detects to see if Player hits the Zombie
+        if(Physics.Raycast(trans.position, trans.forward, out hit, 100))
+        {
+            if(hit.collider.tag == "Player")
+            {
+                //Damage if punching
+                if (Input.GetKeyDown(KeyCode.Alpha1))
+                {
+                    damageToDeal = 5;
+                }
+                //Damage if slashing
+                if (Input.GetKeyDown(KeyCode.Alpha2))
+                {
+                    damageToDeal = 30;
+                }
+            }
+        }
+
+        zombieHealth = zombieHealth - damageToDeal;
+
+        //If health is zero it destorys it
+        if (zombieHealth == 0)
+        {
+            Destroy(this.gameObject);
+        }
 	}
 
     private void movement()
@@ -88,6 +125,7 @@ public class Zombie_Controller : MonoBehaviour {
         }
     }
 
+   
     private void OnCollisionEnter(Collision col)
     {
         if(col.gameObject.tag == "Player")
