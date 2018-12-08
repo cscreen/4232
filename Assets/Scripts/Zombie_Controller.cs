@@ -23,8 +23,7 @@ public class Zombie_Controller : MonoBehaviour {
     //variable to save postion of mouse click
     private Vector3 endpoint;
 
-    //The health the zombie starts with at the begin of play
-    private int zombieHealth = 50;
+    private ZombieHealth health;
 
     private float range;
 
@@ -32,6 +31,11 @@ public class Zombie_Controller : MonoBehaviour {
 
     private GameObject player;
 
+    public AudioClip punchClip;
+
+    public AudioClip swordClip;
+
+    private new AudioSource audio;
     RaycastHit hit;
 
     // Use this for initialization
@@ -46,46 +50,44 @@ public class Zombie_Controller : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player");
         playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
         playerRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
+        health = GetComponent<ZombieHealth>();
+        audio = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
 	void Update () {
         movement();
         int damageToDeal = 0;
-        Animation playerMove = player.GetComponent<Animation>();
         //Detects to see if Player hits the Zombie
         if(Physics.Raycast(trans.position, trans.forward, out hit, 100))
         {
+            
             if(hit.collider.tag == "Player")
             {
                 //Damage if punching
                 if (Input.GetKeyDown(KeyCode.Alpha1))
                 {
                     damageToDeal = 5;
+                    StartCoroutine(soundDelay(punchClip));
+                    print("zombie is hurt");
                 }
                 //Damage if slashing
                 if (Input.GetKeyDown(KeyCode.Alpha2))
                 {
                     damageToDeal = 30;
+                    StartCoroutine(soundDelay(swordClip));
+                    print("zombie is hurt30");
                 }
             }
+
+            health.TakeDamage(damageToDeal);
         }
 
-        zombieHealth = zombieHealth - damageToDeal;
-
-        //If health is zero it destorys it
-        if (zombieHealth == 0)
-        {
-            Destroy(this.gameObject);
-        }
+        
 	}
 
     private void movement()
     {
-        var heading = playerTrans.position - trans.position;
-
-        if(heading.sqrMagnitude < range * range)
-        {
             targetPoint = Vector3.zero;
             endpoint = playerTrans.position;
 
@@ -116,13 +118,6 @@ public class Zombie_Controller : MonoBehaviour {
                 Quaternion targetRotation = Quaternion.LookRotation(towards);
                 trans.rotation = Quaternion.Lerp(trans.rotation, targetRotation, turnSpeed * Time.deltaTime);
             }
-
-
-
-        } else
-        {
-            anim.SetFloat("Speed", 0);
-        }
     }
 
    
@@ -132,5 +127,12 @@ public class Zombie_Controller : MonoBehaviour {
         {
             anim.SetTrigger("Collision");
         }
+    }
+
+    private IEnumerator soundDelay(AudioClip clip)
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        audio.PlayOneShot(clip);
     }
 }

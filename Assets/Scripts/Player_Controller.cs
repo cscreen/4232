@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class Player_Controller : MonoBehaviour {
 
-    //action enum to pick which action the player will do
-    enum Action
-    {
-        Punch = 2,
-        Ax = 3,
-        Gun = 5,
-        Sword = 4
-    };
+
 
     [SerializeField] private Transform trans;
     [SerializeField] private Rigidbody rb;
@@ -28,18 +21,9 @@ public class Player_Controller : MonoBehaviour {
     //variable to save postion of mouse click
     private Vector3 endpoint;
 
-    //distance to zombie to be within range and cause damage
-    private float withinRange;
 
-    //current action the player is taking
-    private Action currentAct;
-
-    //amount of damage to deal to zombie when in range
-    private int damageToDeal;
 
     private Animator anim;
-
-    private float range;
 
     PlayerHealth health;
 
@@ -50,12 +34,9 @@ public class Player_Controller : MonoBehaviour {
         health = GetComponent<PlayerHealth>();
         maxSpeed = 8f;
         radiusOfSat = 3f;
-        withinRange = 4f;
         turnSpeed = 5f;
-        damageToDeal = 0;
         targetPoint = Vector3.zero;
         endpoint = trans.position;
-        range = 10f;
     }
 
     // Update is called once per frame
@@ -126,16 +107,12 @@ public class Player_Controller : MonoBehaviour {
         //print statements used to make sure commands are being registered while no animations
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            currentAct = Action.Punch;
-            damageToDeal = 5;
-            //print("punch");
+            
             anim.SetBool("Punching", true);
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            currentAct = Action.Sword;
-            damageToDeal = 30;
-            //print("sword");
+            
             anim.SetBool("Slashing", true);
         }
 
