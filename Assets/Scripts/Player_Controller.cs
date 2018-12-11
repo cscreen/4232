@@ -27,6 +27,8 @@ public class Player_Controller : MonoBehaviour {
 
     PlayerHealth health;
 
+    RaycastHit hit;
+
     // Use this for initialization
     void Start()
     {
@@ -45,6 +47,20 @@ public class Player_Controller : MonoBehaviour {
         //printVelocity();
         playerMovement();
         playerCombat();
+        int damageToDeal = 0;
+
+        if (Physics.Raycast(trans.position, trans.forward, out hit, 100))
+        {
+
+            if (hit.collider.tag == "Enemy")
+            {
+                damageToDeal = 5;
+                print("Play hurt");
+
+            }
+
+            health.TakeDamage(damageToDeal);
+        }
 
     }
 
